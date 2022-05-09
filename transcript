@@ -1,0 +1,227 @@
+# Compile of rgb_led96.vhd was successful.
+# Compile of arith_unit.vhd was successful.
+# Compile of multiplier.vhd failed with 2 errors.
+# Compile of pipeline_lab.vhd was successful.
+# Compile of PLL.vhd was successful.
+# Compile of multiplier_tb.vhd was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of rgb_led96.vhd was successful.
+# Compile of arith_unit.vhd was successful.
+# Compile of multiplier.vhd was successful.
+# Compile of pipeline_lab.vhd was successful.
+# Compile of PLL.vhd was successful.
+# Compile of multiplier_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.multiplier work.multiplier_tb
+# vsim -gui work.multiplier work.multiplier_tb 
+# Start time: 18:43:56 on May 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multiplier(combinatorial)
+# Loading ieee.std_logic_textio(body)
+# Loading work.multiplier_tb(bench)
+add wave sim:/multiplier/*
+run -all
+# ** Fatal: (vsim-3734) Index value 8 is out of range 7 downto 0.
+#    Time: 0 ps  Iteration: 0  Process: /multiplier_tb/multiplier_0/line__18 File: C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd
+# Fatal error in ForLoop loop at C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd line 22
+# 
+# HDL call sequence:
+# Stopped at C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd 22 ForLoop loop
+# 
+# Compile of rgb_led96.vhd was successful.
+# Compile of arith_unit.vhd was successful.
+# Compile of multiplier.vhd was successful.
+# Compile of pipeline_lab.vhd was successful.
+# Compile of PLL.vhd was successful.
+# Compile of multiplier_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd 22 ForLoop loop
+# 
+restart
+# Loading work.multiplier(combinatorial)
+# Loading work.multiplier_tb(bench)
+run -all
+# ** Error: not matching!
+#    Time: 10 ns  Iteration: 0  Instance: /multiplier_tb
+# ===================================================================
+# Errors encountered during simulation.
+# ===================================================================
+# Compile of rgb_led96.vhd was successful.
+# Compile of arith_unit.vhd was successful.
+# Compile of multiplier.vhd was successful.
+# Compile of pipeline_lab.vhd was successful.
+# Compile of PLL.vhd was successful.
+# Compile of multiplier_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.multiplier(combinatorial)
+# Loading work.multiplier_tb(bench)
+run -all
+# ** Error: not matching!
+#    Time: 1295 ns  Iteration: 0  Instance: /multiplier_tb
+# ===================================================================
+# Errors encountered during simulation.
+# ===================================================================
+vsim -gui work.multiplier_tb
+# End time: 18:47:20 on May 09,2022, Elapsed time: 0:03:24
+# Errors: 5, Warnings: 0
+# vsim -gui work.multiplier_tb 
+# Start time: 18:47:21 on May 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.multiplier_tb(bench)
+# Loading work.multiplier(combinatorial)
+add wave sim:/multiplier_tb/*
+run -all
+# ** Error: not matching!
+#    Time: 1295 ns  Iteration: 0  Instance: /multiplier_tb
+# ===================================================================
+# Errors encountered during simulation.
+# ===================================================================
+# Compile of rgb_led96.vhd was successful.
+# Compile of arith_unit.vhd was successful.
+# Compile of multiplier.vhd was successful with warnings.
+# Compile of pipeline_lab.vhd was successful.
+# Compile of PLL.vhd was successful.
+# Compile of multiplier_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of rgb_led96.vhd was successful.
+# Compile of arith_unit.vhd was successful.
+# Compile of multiplier.vhd was successful with warnings.
+# Compile of pipeline_lab.vhd was successful.
+# Compile of PLL.vhd was successful.
+# Compile of multiplier_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.multiplier_tb
+# End time: 19:02:08 on May 09,2022, Elapsed time: 0:14:47
+# Errors: 1, Warnings: 0
+# vsim -gui work.multiplier_tb 
+# Start time: 19:02:08 on May 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.multiplier_tb(bench)
+# Loading work.multiplier(combinatorial)
+add wave sim:/multiplier_tb/*
+run -all
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 16 (15 downto 0). Right is 8 (7 downto 0).
+#    Time: 1280 ns  Iteration: 1  Process: /multiplier_tb/multiplier_0/line__38 File: C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd
+# Fatal error in Architecture combinatorial at C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd line 38
+# 
+# HDL call sequence:
+# Stopped at C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd 38 Architecture combinatorial
+# 
+# Compile of rgb_led96.vhd was successful.
+# Compile of arith_unit.vhd was successful.
+# Compile of multiplier.vhd failed with 3 errors.
+# Compile of pipeline_lab.vhd was successful.
+# Compile of PLL.vhd was successful.
+# Compile of multiplier_tb.vhd was successful.
+# 6 compiles, 1 failed with 3 errors.
+# Compile of rgb_led96.vhd was successful.
+# Compile of arith_unit.vhd was successful.
+# Compile of multiplier.vhd failed with 2 errors.
+# Compile of pipeline_lab.vhd was successful.
+# Compile of PLL.vhd was successful.
+# Compile of multiplier_tb.vhd was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of rgb_led96.vhd was successful.
+# Compile of arith_unit.vhd was successful.
+# Compile of multiplier.vhd failed with 3 errors.
+# Compile of pipeline_lab.vhd was successful.
+# Compile of PLL.vhd was successful.
+# Compile of multiplier_tb.vhd was successful.
+# 6 compiles, 1 failed with 3 errors.
+# Compile of rgb_led96.vhd was successful.
+# Compile of arith_unit.vhd was successful.
+# Compile of multiplier.vhd was successful with warnings.
+# Compile of pipeline_lab.vhd was successful.
+# Compile of PLL.vhd was successful.
+# Compile of multiplier_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.multiplier_tb
+# End time: 19:14:43 on May 09,2022, Elapsed time: 0:12:35
+# Errors: 2, Warnings: 0
+# vsim -gui work.multiplier_tb 
+# Start time: 19:14:44 on May 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.multiplier_tb(bench)
+# Loading work.multiplier(combinatorial)
+add wave sim:/multiplier_tb/*
+run -all
+# ** Error: not matching!
+#    Time: 3205 ns  Iteration: 0  Instance: /multiplier_tb
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 16 (15 downto 0). Right is 8 (7 downto 0).
+#    Time: 163840 ns  Iteration: 1  Process: /multiplier_tb/multiplier_0/line__47 File: C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd
+# Fatal error in Architecture combinatorial at C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd line 47
+# 
+# HDL call sequence:
+# Stopped at C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd 47 Architecture combinatorial
+# 
+# Compile of rgb_led96.vhd was successful.
+# Compile of arith_unit.vhd was successful.
+# Compile of multiplier.vhd was successful with warnings.
+# Compile of pipeline_lab.vhd was successful.
+# Compile of PLL.vhd was successful.
+# Compile of multiplier_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.multiplier_tb
+# End time: 19:16:07 on May 09,2022, Elapsed time: 0:01:23
+# Errors: 3, Warnings: 0
+# vsim -gui work.multiplier_tb 
+# Start time: 19:16:07 on May 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.multiplier_tb(bench)
+# Loading work.multiplier(combinatorial)
+add wave sim:/multiplier_tb/*
+run -all
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 16 (15 downto 0). Right is 8 (7 downto 0).
+#    Time: 1280 ns  Iteration: 1  Process: /multiplier_tb/multiplier_0/line__40 File: C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd
+# Fatal error in Architecture combinatorial at C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd line 40
+# 
+# HDL call sequence:
+# Stopped at C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd 40 Architecture combinatorial
+# 
+# Compile of rgb_led96.vhd was successful.
+# Compile of arith_unit.vhd was successful.
+# Compile of multiplier.vhd was successful.
+# Compile of pipeline_lab.vhd was successful.
+# Compile of PLL.vhd was successful.
+# Compile of multiplier_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.multiplier_tb
+# End time: 19:16:41 on May 09,2022, Elapsed time: 0:00:34
+# Errors: 2, Warnings: 0
+# vsim -gui work.multiplier_tb 
+# Start time: 19:16:41 on May 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.multiplier_tb(bench)
+# Loading work.multiplier(combinatorial)
+add wave sim:/multiplier_tb/*
+run -all
+# ===================================================================
+# Simulation is successful
+# ===================================================================

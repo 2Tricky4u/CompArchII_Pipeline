@@ -1,0 +1,444 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/windows/system32
+Earith_unit
+Z0 w1652108816
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/xagao/Desktop/project_template
+Z5 8C:/Users/xagao/Desktop/project_template/vhdl/arith_unit.vhd
+Z6 FC:/Users/xagao/Desktop/project_template/vhdl/arith_unit.vhd
+l0
+L5
+V]j:Z2lgLC8T`YNahi7nUT1
+!s100 L]MBi@k0OKXoVf_^WS=h]1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1652116595
+!i10b 1
+Z9 !s108 1652116595.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/vhdl/arith_unit.vhd|
+Z11 !s107 C:/Users/xagao/Desktop/project_template/vhdl/arith_unit.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Atwo_stage_pipeline_2
+R1
+R2
+R3
+Z14 DEx4 work 10 arith_unit 0 22 ]j:Z2lgLC8T`YNahi7nUT1
+l104
+L87
+VbXDBY8lZR3_T62`POcn?V3
+!s100 XWAb8F=dz3Ye>OMcP]bQl0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Atwo_stage_pipeline_1
+R1
+R2
+R3
+R14
+l80
+L65
+Vd[^kNZlXBa5H[`HDmYkPJ0
+!s100 oJ;;YON0iafjUbR`c?jH03
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aone_stage_pipeline
+R1
+R2
+R3
+R14
+l58
+L43
+VC_7kdoTMdUKIUHhYDZ=@S2
+!s100 k=RiHCV56[?5hATE;czM63
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Acombinatorial
+R1
+R2
+R3
+R14
+l36
+L21
+VBG1=G5[bUGgDk48i?IZ4D0
+!s100 ]0]3ZXUnW_;RdOlFFSAfo0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Emultiplier
+Z15 w1652116591
+R1
+R2
+R3
+R4
+Z16 8C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd
+Z17 FC:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd
+l0
+L9
+VFcb?HAF<6VYlK61l[VSm40
+!s100 ELoc2n9_0nkzjEfHgW<_60
+R7
+32
+Z18 !s110 1652116596
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd|
+Z20 !s107 C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd|
+!i113 1
+R12
+R13
+Acombinatorial
+R1
+R2
+R3
+DEx4 work 10 multiplier 0 22 Fcb?HAF<6VYlK61l[VSm40
+l27
+L16
+VOVJj2SD9fWTEac09aL45J0
+!s100 8Zkh7RmaXUGK@jAQJfGhC2
+R7
+32
+R18
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Emultiplier16
+R15
+R1
+R2
+R3
+R4
+R16
+R17
+l0
+L63
+V0og9=HK20PVe2z<U<WKPQ1
+!s100 4QYMhRFRP9_iefk3hDa?`2
+R7
+32
+R18
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Acombinatorial
+R1
+R2
+R3
+DEx4 work 12 multiplier16 0 22 0og9=HK20PVe2z<U<WKPQ1
+l80
+L70
+VBVYU1ai[Hh>RTL6WV8nz51
+!s100 kbR6LNS9Wb:S6RO0]l1fR0
+R7
+32
+R18
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Emultiplier16_pipeline
+R15
+R1
+R2
+R3
+R4
+R16
+R17
+l0
+L91
+VX3oNbOB?>FFkNQQkAYY5Y2
+!s100 SdQle0[B^AK8NXlecL[zO3
+R7
+32
+R18
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Apipeline
+R1
+R2
+R3
+DEx4 work 21 multiplier16_pipeline 0 22 X3oNbOB?>FFkNQQkAYY5Y2
+l110
+L100
+V5;dcHTdLlGUlMFEZ40OF31
+!s100 e`gdT9KV^h?VD?1BT_9?V2
+R7
+32
+R18
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Emultiplier_tb
+R0
+Z21 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R1
+R2
+R3
+R4
+Z22 8C:/Users/xagao/Desktop/project_template/testbench/multiplier_tb.vhd
+Z23 FC:/Users/xagao/Desktop/project_template/testbench/multiplier_tb.vhd
+l0
+L7
+V;=J>0H9>G=2J>[EIDA;ff2
+!s100 Z_OJlIYz1NhbUQlXe^X]^1
+R7
+32
+Z24 !s110 1652116597
+!i10b 1
+Z25 !s108 1652116597.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/testbench/multiplier_tb.vhd|
+Z27 !s107 C:/Users/xagao/Desktop/project_template/testbench/multiplier_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R21
+R1
+R2
+R3
+Z28 DEx4 work 13 multiplier_tb 0 22 ;=J>0H9>G=2J>[EIDA;ff2
+l21
+L10
+Z29 VCT^EbiI4HOn?DiQhz=[8Z0
+Z30 !s100 zngPU^5>e4P1Y97Ei9lEQ0
+R7
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R12
+R13
+Ppack
+Z31 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z32 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R2
+R3
+R0
+R4
+Z33 8C:/Users/xagao/Desktop/project_template/vhdl/rgb_led96.vhd
+Z34 FC:/Users/xagao/Desktop/project_template/vhdl/rgb_led96.vhd
+l0
+L12
+VSgkf7C>zV<_V6E^@jUKD^3
+!s100 FB]U9M?hE8E5iehJ9[AWh3
+R7
+32
+b1
+Z35 !s110 1652116594
+!i10b 1
+Z36 !s108 1652116594.000000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/vhdl/rgb_led96.vhd|
+Z38 !s107 C:/Users/xagao/Desktop/project_template/vhdl/rgb_led96.vhd|
+!i113 1
+R12
+R13
+Bbody
+Z39 DPx4 work 4 pack 0 22 Sgkf7C>zV<_V6E^@jUKD^3
+R31
+R32
+R2
+R3
+l0
+L17
+VQ[i6CQaWYOi37nk]<RCBH3
+!s100 8]CiCz8GM]b_8`cfK=T:`2
+R7
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R12
+R13
+Epipeline_lab
+R0
+R1
+R2
+R3
+R4
+Z40 8C:/Users/xagao/Desktop/project_template/vhdl/pipeline_lab.vhd
+Z41 FC:/Users/xagao/Desktop/project_template/vhdl/pipeline_lab.vhd
+l0
+L10
+Vz8:2^:c6I42oVXWV3<U=02
+!s100 U_Z[2SEjCZa:@:Dh2F>M41
+R7
+32
+R18
+!i10b 1
+Z42 !s108 1652116596.000000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/vhdl/pipeline_lab.vhd|
+Z44 !s107 C:/Users/xagao/Desktop/project_template/vhdl/pipeline_lab.vhd|
+!i113 1
+R12
+R13
+Asynth
+R14
+R1
+R2
+R3
+DEx4 work 12 pipeline_lab 0 22 z8:2^:c6I42oVXWV3<U=02
+l60
+L20
+VS6aXHZL]M`Hd?Jd3h57aA3
+!s100 d]G5aZA]mXBc3L;n?iQG;1
+R7
+32
+R18
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R12
+R13
+Epll
+R0
+R2
+R3
+R4
+Z45 8C:/Users/xagao/Desktop/project_template/vhdl/PLL.vhd
+Z46 FC:/Users/xagao/Desktop/project_template/vhdl/PLL.vhd
+l0
+L42
+VmTLLi;zTDE3Z7b?A;_Snl3
+!s100 z=Lz?ZJAV[B0AQHTQ1_K13
+R7
+32
+R24
+!i10b 1
+R25
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/vhdl/PLL.vhd|
+Z48 !s107 C:/Users/xagao/Desktop/project_template/vhdl/PLL.vhd|
+!i113 1
+R12
+R13
+Asyn
+R2
+R3
+DEx4 work 3 pll 0 22 mTLLi;zTDE3Z7b?A;_Snl3
+l129
+L52
+VMfNgI:=knlP79fz7RKHHn2
+!s100 kT0SF3bkkbPkaCI3SoOXE2
+R7
+32
+R24
+!i10b 1
+R25
+R47
+R48
+!i113 1
+R12
+R13
+Ergb_led96
+R0
+R39
+R32
+R31
+R2
+R3
+R4
+R33
+R34
+l0
+L46
+VDn00^;b6BmV8c[7[]6<CU2
+!s100 X:YKB@hW0<LC:6C595LeJ0
+R7
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R12
+R13
+Aarch
+R39
+R32
+R31
+R2
+R3
+DEx4 work 9 rgb_led96 0 22 Dn00^;b6BmV8c[7[]6<CU2
+l144
+L80
+VVMLEXCQSI_@JdCBGa]SIz1
+!s100 g<aGZ1bIK0AWZCQOUK`ba3
+R7
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R12
+R13
