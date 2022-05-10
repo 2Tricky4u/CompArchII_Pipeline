@@ -34,6 +34,7 @@ architecture combinatorial of arith_unit is
     end component;
 
 begin
+    done <= start;
 end combinatorial;
 
 -- =============================================================================

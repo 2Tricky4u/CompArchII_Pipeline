@@ -22,9 +22,9 @@ V]j:Z2lgLC8T`YNahi7nUT1
 !s100 L]MBi@k0OKXoVf_^WS=h]1
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1652116595
+Z8 !s110 1652187245
 !i10b 1
-Z9 !s108 1652116595.000000
+Z9 !s108 1652187245.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/vhdl/arith_unit.vhd|
 Z11 !s107 C:/Users/xagao/Desktop/project_template/vhdl/arith_unit.vhd|
 !i113 1
@@ -107,7 +107,7 @@ R11
 R12
 R13
 Emultiplier
-Z15 w1652116591
+Z15 w1652187234
 R1
 R2
 R3
@@ -120,11 +120,11 @@ VFcb?HAF<6VYlK61l[VSm40
 !s100 ELoc2n9_0nkzjEfHgW<_60
 R7
 32
-Z18 !s110 1652116596
+Z18 !s110 1652187246
 !i10b 1
-R9
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd|
-Z20 !s107 C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd|
+Z19 !s108 1652187246.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd|
+Z21 !s107 C:/Users/xagao/Desktop/project_template/vhdl/multiplier.vhd|
 !i113 1
 R12
 R13
@@ -135,15 +135,15 @@ R3
 DEx4 work 10 multiplier 0 22 Fcb?HAF<6VYlK61l[VSm40
 l27
 L16
-VOVJj2SD9fWTEac09aL45J0
-!s100 8Zkh7RmaXUGK@jAQJfGhC2
+V`hJ@LMSBU4<e`fWE2c:f40
+!s100 ?ZAi:<_:0PFn0>O54^CYS2
 R7
 32
 R18
 !i10b 1
-R9
 R19
 R20
+R21
 !i113 1
 R12
 R13
@@ -156,16 +156,16 @@ R4
 R16
 R17
 l0
-L63
-V0og9=HK20PVe2z<U<WKPQ1
-!s100 4QYMhRFRP9_iefk3hDa?`2
+L71
+Vajb8i1@INmhnz_m^Hc8Ff2
+!s100 ZFlUQ1UV5VkI[X8TA3SRe2
 R7
 32
 R18
 !i10b 1
-R9
 R19
 R20
+R21
 !i113 1
 R12
 R13
@@ -173,18 +173,18 @@ Acombinatorial
 R1
 R2
 R3
-DEx4 work 12 multiplier16 0 22 0og9=HK20PVe2z<U<WKPQ1
-l80
-L70
-VBVYU1ai[Hh>RTL6WV8nz51
-!s100 kbR6LNS9Wb:S6RO0]l1fR0
+DEx4 work 12 multiplier16 0 22 ajb8i1@INmhnz_m^Hc8Ff2
+l98
+L78
+VejKCb]ZGmzD_gF:lGZjRJ0
+!s100 i_[goJE?>:k4j5z26JK0`2
 R7
 32
 R18
 !i10b 1
-R9
 R19
 R20
+R21
 !i113 1
 R12
 R13
@@ -197,16 +197,16 @@ R4
 R16
 R17
 l0
-L91
-VX3oNbOB?>FFkNQQkAYY5Y2
-!s100 SdQle0[B^AK8NXlecL[zO3
+L123
+V^eg_dMfjkKF9O4l4@h4Bm1
+!s100 `fCLYO1_XeG2[2zQF6gK_0
 R7
 32
 R18
 !i10b 1
-R9
 R19
 R20
+R21
 !i113 1
 R12
 R13
@@ -214,98 +214,97 @@ Apipeline
 R1
 R2
 R3
-DEx4 work 21 multiplier16_pipeline 0 22 X3oNbOB?>FFkNQQkAYY5Y2
-l110
-L100
-V5;dcHTdLlGUlMFEZ40OF31
-!s100 e`gdT9KV^h?VD?1BT_9?V2
+DEx4 work 21 multiplier16_pipeline 0 22 ^eg_dMfjkKF9O4l4@h4Bm1
+l142
+L132
+VC:WRgzNmfL^BdPKe8^8nL3
+!s100 bzJLFknPBl1[Pl47IEMia2
 R7
 32
 R18
 !i10b 1
-R9
 R19
 R20
+R21
+!i113 1
+R12
+R13
+Emultiplier16_tb
+Z22 w1652186116
+Z23 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R1
+R2
+R3
+R4
+Z24 8C:/Users/xagao/Desktop/project_template/testbench/multiplier16_tb.vhd
+Z25 FC:/Users/xagao/Desktop/project_template/testbench/multiplier16_tb.vhd
+l0
+L7
+V=ZQMm]gb1GBd`:S1NEF8H0
+!s100 KHF8aNiLQ]R^XdPWPb53f0
+R7
+32
+Z26 !s110 1652187250
+!i10b 1
+Z27 !s108 1652187250.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/testbench/multiplier16_tb.vhd|
+Z29 !s107 C:/Users/xagao/Desktop/project_template/testbench/multiplier16_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R23
+R1
+R2
+R3
+Z30 DEx4 work 15 multiplier16_tb 0 22 =ZQMm]gb1GBd`:S1NEF8H0
+l21
+L10
+Z31 VOYELQM41nz>g9P_@bo;Vn1
+Z32 !s100 0nc8H;FnJc>^3=0Z:ThW^0
+R7
+32
+R26
+!i10b 1
+R27
+R28
+R29
 !i113 1
 R12
 R13
 Emultiplier_tb
 R0
-Z21 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R23
 R1
 R2
 R3
 R4
-Z22 8C:/Users/xagao/Desktop/project_template/testbench/multiplier_tb.vhd
-Z23 FC:/Users/xagao/Desktop/project_template/testbench/multiplier_tb.vhd
+Z33 8C:/Users/xagao/Desktop/project_template/testbench/multiplier_tb.vhd
+Z34 FC:/Users/xagao/Desktop/project_template/testbench/multiplier_tb.vhd
 l0
 L7
 V;=J>0H9>G=2J>[EIDA;ff2
 !s100 Z_OJlIYz1NhbUQlXe^X]^1
 R7
 32
-Z24 !s110 1652116597
+Z35 !s110 1652187249
 !i10b 1
-Z25 !s108 1652116597.000000
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/testbench/multiplier_tb.vhd|
-Z27 !s107 C:/Users/xagao/Desktop/project_template/testbench/multiplier_tb.vhd|
+Z36 !s108 1652187249.000000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/testbench/multiplier_tb.vhd|
+Z38 !s107 C:/Users/xagao/Desktop/project_template/testbench/multiplier_tb.vhd|
 !i113 1
 R12
 R13
 Abench
-R21
+R23
 R1
 R2
 R3
-Z28 DEx4 work 13 multiplier_tb 0 22 ;=J>0H9>G=2J>[EIDA;ff2
+DEx4 work 13 multiplier_tb 0 22 ;=J>0H9>G=2J>[EIDA;ff2
 l21
 L10
-Z29 VCT^EbiI4HOn?DiQhz=[8Z0
-Z30 !s100 zngPU^5>e4P1Y97Ei9lEQ0
-R7
-32
-R24
-!i10b 1
-R25
-R26
-R27
-!i113 1
-R12
-R13
-Ppack
-Z31 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z32 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-R2
-R3
-R0
-R4
-Z33 8C:/Users/xagao/Desktop/project_template/vhdl/rgb_led96.vhd
-Z34 FC:/Users/xagao/Desktop/project_template/vhdl/rgb_led96.vhd
-l0
-L12
-VSgkf7C>zV<_V6E^@jUKD^3
-!s100 FB]U9M?hE8E5iehJ9[AWh3
-R7
-32
-b1
-Z35 !s110 1652116594
-!i10b 1
-Z36 !s108 1652116594.000000
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/vhdl/rgb_led96.vhd|
-Z38 !s107 C:/Users/xagao/Desktop/project_template/vhdl/rgb_led96.vhd|
-!i113 1
-R12
-R13
-Bbody
-Z39 DPx4 work 4 pack 0 22 Sgkf7C>zV<_V6E^@jUKD^3
-R31
-R32
-R2
-R3
-l0
-L17
-VQ[i6CQaWYOi37nk]<RCBH3
-!s100 8]CiCz8GM]b_8`cfK=T:`2
+VCT^EbiI4HOn?DiQhz=[8Z0
+!s100 zngPU^5>e4P1Y97Ei9lEQ0
 R7
 32
 R35
@@ -316,25 +315,69 @@ R38
 !i113 1
 R12
 R13
+Ppack
+Z39 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z40 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R2
+R3
+R0
+R4
+Z41 8C:/Users/xagao/Desktop/project_template/vhdl/rgb_led96.vhd
+Z42 FC:/Users/xagao/Desktop/project_template/vhdl/rgb_led96.vhd
+l0
+L12
+VSgkf7C>zV<_V6E^@jUKD^3
+!s100 FB]U9M?hE8E5iehJ9[AWh3
+R7
+32
+b1
+Z43 !s110 1652187244
+!i10b 1
+Z44 !s108 1652187244.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/vhdl/rgb_led96.vhd|
+Z46 !s107 C:/Users/xagao/Desktop/project_template/vhdl/rgb_led96.vhd|
+!i113 1
+R12
+R13
+Bbody
+Z47 DPx4 work 4 pack 0 22 Sgkf7C>zV<_V6E^@jUKD^3
+R39
+R40
+R2
+R3
+l0
+L17
+VQ[i6CQaWYOi37nk]<RCBH3
+!s100 8]CiCz8GM]b_8`cfK=T:`2
+R7
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R12
+R13
 Epipeline_lab
 R0
 R1
 R2
 R3
 R4
-Z40 8C:/Users/xagao/Desktop/project_template/vhdl/pipeline_lab.vhd
-Z41 FC:/Users/xagao/Desktop/project_template/vhdl/pipeline_lab.vhd
+Z48 8C:/Users/xagao/Desktop/project_template/vhdl/pipeline_lab.vhd
+Z49 FC:/Users/xagao/Desktop/project_template/vhdl/pipeline_lab.vhd
 l0
 L10
 Vz8:2^:c6I42oVXWV3<U=02
 !s100 U_Z[2SEjCZa:@:Dh2F>M41
 R7
 32
-R18
+Z50 !s110 1652187247
 !i10b 1
-Z42 !s108 1652116596.000000
-Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/vhdl/pipeline_lab.vhd|
-Z44 !s107 C:/Users/xagao/Desktop/project_template/vhdl/pipeline_lab.vhd|
+Z51 !s108 1652187247.000000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/vhdl/pipeline_lab.vhd|
+Z53 !s107 C:/Users/xagao/Desktop/project_template/vhdl/pipeline_lab.vhd|
 !i113 1
 R12
 R13
@@ -350,11 +393,11 @@ VS6aXHZL]M`Hd?Jd3h57aA3
 !s100 d]G5aZA]mXBc3L;n?iQG;1
 R7
 32
-R18
+R50
 !i10b 1
-R42
-R43
-R44
+R51
+R52
+R53
 !i113 1
 R12
 R13
@@ -363,19 +406,19 @@ R0
 R2
 R3
 R4
-Z45 8C:/Users/xagao/Desktop/project_template/vhdl/PLL.vhd
-Z46 FC:/Users/xagao/Desktop/project_template/vhdl/PLL.vhd
+Z54 8C:/Users/xagao/Desktop/project_template/vhdl/PLL.vhd
+Z55 FC:/Users/xagao/Desktop/project_template/vhdl/PLL.vhd
 l0
 L42
 VmTLLi;zTDE3Z7b?A;_Snl3
 !s100 z=Lz?ZJAV[B0AQHTQ1_K13
 R7
 32
-R24
+Z56 !s110 1652187248
 !i10b 1
-R25
-Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/vhdl/PLL.vhd|
-Z48 !s107 C:/Users/xagao/Desktop/project_template/vhdl/PLL.vhd|
+Z57 !s108 1652187248.000000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/project_template/vhdl/PLL.vhd|
+Z59 !s107 C:/Users/xagao/Desktop/project_template/vhdl/PLL.vhd|
 !i113 1
 R12
 R13
@@ -389,42 +432,42 @@ VMfNgI:=knlP79fz7RKHHn2
 !s100 kT0SF3bkkbPkaCI3SoOXE2
 R7
 32
-R24
+R56
 !i10b 1
-R25
-R47
-R48
+R57
+R58
+R59
 !i113 1
 R12
 R13
 Ergb_led96
 R0
+R47
+R40
 R39
-R32
-R31
 R2
 R3
 R4
-R33
-R34
+R41
+R42
 l0
 L46
 VDn00^;b6BmV8c[7[]6<CU2
 !s100 X:YKB@hW0<LC:6C595LeJ0
 R7
 32
-R35
+R43
 !i10b 1
-R36
-R37
-R38
+R44
+R45
+R46
 !i113 1
 R12
 R13
 Aarch
+R47
+R40
 R39
-R32
-R31
 R2
 R3
 DEx4 work 9 rgb_led96 0 22 Dn00^;b6BmV8c[7[]6<CU2
@@ -434,11 +477,11 @@ VVMLEXCQSI_@JdCBGa]SIz1
 !s100 g<aGZ1bIK0AWZCQOUK`ba3
 R7
 32
-R35
+R43
 !i10b 1
-R36
-R37
-R38
+R44
+R45
+R46
 !i113 1
 R12
 R13
