@@ -47,8 +47,8 @@ architecture combinatorial of arith_unit is
     
 begin
     --First multiplication
-    m1a <= A when sel = '0' else B;
-    m1b <= A when sel ='0' else C;
+    m1a <= B when sel = '0' else A;
+    m1b <= C when sel ='0' else A;
     c1 : multiplier port map ( A => m1a, B => m1b, P => m1r);
 
     --First addition
@@ -60,7 +60,7 @@ begin
     a2r <= m1r + a1r;
 
     --Second multiplication
-    m2m <= m1r when sel = '0' else a2r;
+    m2m <= a2r when sel = '0' else m1r;
     c2 : multiplier16 port map ( A => m1r, B => m2m, P => m2r);
 
     --Third multiplication
