@@ -13,7 +13,7 @@ architecture bench of function_tb is
         signal start   : std_logic := '1';
         signal sel     : std_logic :='0';
         signal A, B, C : unsigned(7 downto 0);
-        signal D       : unsigned(31 downto 0) := (others => '0');
+        signal D       : unsigned(31 downto 0);
         signal done    : std_logic;
 
     component arith_unit is
@@ -34,10 +34,10 @@ begin
             reset_n => reset_n,
             start => start,
             sel => sel,
-            A => A,
-            B => B,
-            C => C,
-            D => D,
+            a => A,
+            b => B,
+            c => C,
+            d => D,
             done => done
         );
 
@@ -45,9 +45,9 @@ begin
         variable err         : boolean := false;
         variable line_output : line;
     begin
-        for i in 0 to 256 loop
-            for j in 0 to 256 loop
-                for k in 0 to 256 loop
+        for i in 0 to 128 loop
+            for j in 0 to 128 loop
+                for k in 0 to 128 loop
                     A <= to_unsigned(i, 8);
                     B <= to_unsigned(j, 8);
                     C <= to_unsigned(k, 8);

@@ -33,17 +33,10 @@ architecture combinatorial of arith_unit is
         );
     end component;
 
-    signal m1a : unsigned(7 downto 0);
-    signal m1b : unsigned(7 downto 0);
-    signal m1r : unsigned(15 downto 0);
-    signal a1a : unsigned(15 downto 0) := (others => '0');
-    signal a1atemp : unsigned(15 downto 0) := (others => '0');
-    signal a1r : unsigned(15 downto 0);
-    signal a2r : unsigned(15 downto 0);
-    signal m2m : unsigned(15 downto 0);
-    signal m2r : unsigned(31 downto 0);
-    signal m3r : unsigned(31 downto 0);
-    signal a3r : unsigned(31 downto 0);
+    signal m1a, m1b : unsigned(7 downto 0);
+    signal m1r, a1r, a2r, m2m : unsigned(15 downto 0);
+    signal a1a, a1atemp : unsigned(15 downto 0) := (others => '0');
+    signal m2r, m3r, a3r : unsigned(31 downto 0);
     
 begin
     --First multiplication
@@ -93,7 +86,37 @@ architecture one_stage_pipeline of arith_unit is
         );
     end component;
 
+    signal m1a, m1b : unsigned(7 downto 0);
+    signal m1r, a1r, a2r, m2m : unsigned(15 downto 0);
+    signal a1a, a1atemp : unsigned(15 downto 0) := (others => '0');
+    signal m2r, m3r, a3r : unsigned(31 downto 0);
 begin
+     --First multiplication
+     m1a <= B when sel = '0' else A;
+     m1b <= C when sel ='0' else A;
+     c1 : multiplier port map ( A => m1a, B => m1b, P => m1r);
+ 
+     --First addition
+     a1atemp(7 downto 0) <= A;
+     a1a <= a1atemp when sel = '0' else shift_left(a1atemp, 1);
+     a1r <= a1a + B;
+ 
+     --Second addition
+     a2r <= m1r + a1r;
+ 
+     --Second multiplication
+     m2m <= a2r when sel = '0' else m1r;
+     c2 : multiplier16 port map ( A => m1r, B => m2m, P => m2r);
+ 
+     --Third multiplication
+     c3 : multiplier16 port map ( A => a1r, B => a1r, P => m3r);
+ 
+     --Third addition
+     a3r <= m2r + m3r;
+ 
+     --out
+     D <= m2r when sel = '0' else a3r;
+     done <= start;
 end one_stage_pipeline;
 
 -- =============================================================================

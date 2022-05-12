@@ -1,3 +1,569 @@
 m255
+K4
+z0
 13
 cModel Technology
+Earith_unit
+Z0 w1652357207
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/modelsim
+Z5 8C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/arith_unit.vhd
+Z6 FC:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/arith_unit.vhd
+l0
+L5
+V]j:Z2lgLC8T`YNahi7nUT1
+!s100 L]MBi@k0OKXoVf_^WS=h]1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1652360609
+!i10b 1
+Z9 !s108 1652360609.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/arith_unit.vhd|
+Z11 !s107 C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/arith_unit.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Atwo_stage_pipeline_2
+R1
+R2
+R3
+Z14 DEx4 work 10 arith_unit 0 22 ]j:Z2lgLC8T`YNahi7nUT1
+l135
+L118
+Vk2eM3PcgNH5_?0;9:_;bC3
+!s100 =OPkJ3kSkTRL2AKGMFQF^3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Atwo_stage_pipeline_1
+R1
+R2
+R3
+R14
+l111
+L96
+V6CbAO8]WKC4Q06_?NFT=_3
+!s100 RO?k?L_IG^DnT_R24?hUB1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aone_stage_pipeline
+R1
+R2
+R3
+R14
+l89
+L74
+VnBO:nVWn=PUdV<H?^lXA?0
+!s100 NdnnHz189R@BlBm1bfeD60
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Acombinatorial
+R1
+R2
+R3
+R14
+l41
+L21
+VJK0R6=BAk]:M`O]5Gz20`2
+!s100 S3zgW2cd_Z9=W628Z:BW?2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Earith_unit_tb
+Z15 w1652203000
+Z16 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R1
+R2
+R3
+R4
+Z17 8C:/Users/xagao/Desktop/arith_unit_tb.vhd
+Z18 FC:/Users/xagao/Desktop/arith_unit_tb.vhd
+l0
+L7
+VS=S;_<nQF>DozCX?BZ_l72
+!s100 baWTVODXjWTcf<m4:1Cbm3
+R7
+32
+Z19 !s110 1652360611
+!i10b 1
+Z20 !s108 1652360611.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/arith_unit_tb.vhd|
+Z22 !s107 C:/Users/xagao/Desktop/arith_unit_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R14
+R16
+R1
+R2
+R3
+Z23 DEx4 work 13 arith_unit_tb 0 22 S=S;_<nQF>DozCX?BZ_l72
+l22
+L10
+Z24 VY=bEY<fMX`blgX_U?3nJ?3
+Z25 !s100 ^^YGCKG8NSLloF29BQG];1
+R7
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R12
+R13
+Efunction_tb
+Z26 w1652203124
+R16
+R1
+R2
+R3
+R4
+Z27 8C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/testbench/function_tb.vhd
+Z28 FC:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/testbench/function_tb.vhd
+l0
+L7
+Vn7PDS<VId9Y:49eHOMNJj1
+!s100 e64VIl0KhJ`EC:Eh2N0XJ1
+R7
+32
+Z29 !s110 1652360610
+!i10b 1
+Z30 !s108 1652360610.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/testbench/function_tb.vhd|
+Z32 !s107 C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/testbench/function_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R16
+R1
+R2
+R3
+DEx4 work 11 function_tb 0 22 n7PDS<VId9Y:49eHOMNJj1
+l31
+L10
+V<;KXUQZZWcKRVIRn3Xh=f3
+!s100 ?89>73C^?GJUCl3eDlJDD3
+R7
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R12
+R13
+Emultiplier
+Z33 w1652360605
+R1
+R2
+R3
+R4
+Z34 8C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/multiplier.vhd
+Z35 FC:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/multiplier.vhd
+l0
+L9
+VFcb?HAF<6VYlK61l[VSm40
+!s100 ELoc2n9_0nkzjEfHgW<_60
+R7
+32
+R29
+!i10b 1
+R30
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/multiplier.vhd|
+Z37 !s107 C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/multiplier.vhd|
+!i113 1
+R12
+R13
+Acombinatorial
+R1
+R2
+R3
+DEx4 work 10 multiplier 0 22 Fcb?HAF<6VYlK61l[VSm40
+l21
+L16
+V;FA>iD0VAM[ocKWY@<4X43
+!s100 4VBXohLVVL<@3mFTHff3a0
+R7
+32
+R29
+!i10b 1
+R30
+R36
+R37
+!i113 1
+R12
+R13
+Emultiplier16
+R33
+R1
+R2
+R3
+R4
+R34
+R35
+l0
+L90
+VVh@F>hFLoNj^R;]elmIVS0
+!s100 Cb@Ma:]@ARedFYW]HQkHa0
+R7
+32
+R29
+!i10b 1
+R30
+R36
+R37
+!i113 1
+R12
+R13
+Acombinatorial
+R1
+R2
+R3
+DEx4 work 12 multiplier16 0 22 Vh@F>hFLoNj^R;]elmIVS0
+l110
+L97
+V02bD9majRYRHlHUeG^Y][2
+!s100 ?4nBiAC?@lEc1WVRKE:U]0
+R7
+32
+R29
+!i10b 1
+R30
+R36
+R37
+!i113 1
+R12
+R13
+Emultiplier16_pipeline
+R33
+R1
+R2
+R3
+R4
+R34
+R35
+l0
+L132
+VLGM]@hQCI>i36DzE72GIm2
+!s100 J0LdjcD6][Fm`^:INjJ7S3
+R7
+32
+R29
+!i10b 1
+R30
+R36
+R37
+!i113 1
+R12
+R13
+Apipeline
+R1
+R2
+R3
+DEx4 work 21 multiplier16_pipeline 0 22 LGM]@hQCI>i36DzE72GIm2
+l151
+L141
+VbGzCVAfQMgP]b9ml8=1j_2
+!s100 fCFez_@5JJkA10JLgIZUJ3
+R7
+32
+R29
+!i10b 1
+R30
+R36
+R37
+!i113 1
+R12
+R13
+Emultiplier16_tb
+Z38 w1652201916
+R16
+R1
+R2
+R3
+R4
+Z39 8C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/testbench/multiplier16_tb.vhd
+Z40 FC:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/testbench/multiplier16_tb.vhd
+l0
+L7
+V=ZQMm]gb1GBd`:S1NEF8H0
+!s100 KHF8aNiLQ]R^XdPWPb53f0
+R7
+32
+R29
+!i10b 1
+R30
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/testbench/multiplier16_tb.vhd|
+Z42 !s107 C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/testbench/multiplier16_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R16
+R1
+R2
+R3
+DEx4 work 15 multiplier16_tb 0 22 =ZQMm]gb1GBd`:S1NEF8H0
+l21
+L10
+VOYELQM41nz>g9P_@bo;Vn1
+!s100 0nc8H;FnJc>^3=0Z:ThW^0
+R7
+32
+R29
+!i10b 1
+R30
+R41
+R42
+!i113 1
+R12
+R13
+Emultiplier_tb
+R38
+R16
+R1
+R2
+R3
+R4
+Z43 8C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/testbench/multiplier_tb.vhd
+Z44 FC:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/testbench/multiplier_tb.vhd
+l0
+L7
+V;=J>0H9>G=2J>[EIDA;ff2
+!s100 Z_OJlIYz1NhbUQlXe^X]^1
+R7
+32
+R19
+!i10b 1
+R30
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/testbench/multiplier_tb.vhd|
+Z46 !s107 C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/testbench/multiplier_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R16
+R1
+R2
+R3
+DEx4 work 13 multiplier_tb 0 22 ;=J>0H9>G=2J>[EIDA;ff2
+l21
+L10
+VCT^EbiI4HOn?DiQhz=[8Z0
+!s100 zngPU^5>e4P1Y97Ei9lEQ0
+R7
+32
+R19
+!i10b 1
+R30
+R45
+R46
+!i113 1
+R12
+R13
+Ppack
+Z47 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z48 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R2
+R3
+R38
+R4
+Z49 8C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/rgb_led96.vhd
+Z50 FC:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/rgb_led96.vhd
+l0
+L12
+VSgkf7C>zV<_V6E^@jUKD^3
+!s100 FB]U9M?hE8E5iehJ9[AWh3
+R7
+32
+b1
+R8
+!i10b 1
+R9
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/rgb_led96.vhd|
+Z52 !s107 C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/rgb_led96.vhd|
+!i113 1
+R12
+R13
+Bbody
+Z53 DPx4 work 4 pack 0 22 Sgkf7C>zV<_V6E^@jUKD^3
+R47
+R48
+R2
+R3
+l0
+L17
+VQ[i6CQaWYOi37nk]<RCBH3
+!s100 8]CiCz8GM]b_8`cfK=T:`2
+R7
+32
+R8
+!i10b 1
+R9
+R51
+R52
+!i113 1
+R12
+R13
+Epipeline_lab
+R38
+R1
+R2
+R3
+R4
+Z54 8C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/pipeline_lab.vhd
+Z55 FC:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/pipeline_lab.vhd
+l0
+L10
+Vz8:2^:c6I42oVXWV3<U=02
+!s100 U_Z[2SEjCZa:@:Dh2F>M41
+R7
+32
+R29
+!i10b 1
+R30
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/pipeline_lab.vhd|
+Z57 !s107 C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/pipeline_lab.vhd|
+!i113 1
+R12
+R13
+Asynth
+R14
+R1
+R2
+R3
+DEx4 work 12 pipeline_lab 0 22 z8:2^:c6I42oVXWV3<U=02
+l60
+L20
+VS6aXHZL]M`Hd?Jd3h57aA3
+!s100 d]G5aZA]mXBc3L;n?iQG;1
+R7
+32
+R29
+!i10b 1
+R30
+R56
+R57
+!i113 1
+R12
+R13
+Epll
+Z58 w1620342266
+R2
+R3
+R4
+Z59 8C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/PLL.vhd
+Z60 FC:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/PLL.vhd
+l0
+L42
+VhdWFGCT>]D:E4I6:URgiP1
+!s100 N;^hW@k<?=jge:=h^TU`:3
+R7
+32
+R29
+!i10b 1
+R30
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/PLL.vhd|
+Z62 !s107 C:/Users/xagao/Desktop/Lab/Github/CompArchII_Pipeline/vhdl/PLL.vhd|
+!i113 1
+R12
+R13
+Asyn
+R2
+R3
+DEx4 work 3 pll 0 22 hdWFGCT>]D:E4I6:URgiP1
+l125
+L51
+V<4B4fB_Bml?_YGiRnOXEe0
+!s100 jKNITi?:F436dLg_A[g6K2
+R7
+32
+R29
+!i10b 1
+R30
+R61
+R62
+!i113 1
+R12
+R13
+Ergb_led96
+R38
+R53
+R48
+R47
+R2
+R3
+R4
+R49
+R50
+l0
+L46
+VDn00^;b6BmV8c[7[]6<CU2
+!s100 X:YKB@hW0<LC:6C595LeJ0
+R7
+32
+R8
+!i10b 1
+R9
+R51
+R52
+!i113 1
+R12
+R13
+Aarch
+R53
+R48
+R47
+R2
+R3
+DEx4 work 9 rgb_led96 0 22 Dn00^;b6BmV8c[7[]6<CU2
+l144
+L80
+VVMLEXCQSI_@JdCBGa]SIz1
+!s100 g<aGZ1bIK0AWZCQOUK`ba3
+R7
+32
+R8
+!i10b 1
+R9
+R51
+R52
+!i113 1
+R12
+R13
