@@ -148,5 +148,10 @@ architecture pipeline of multiplier16_pipeline is
         );
     end component;
 
+    signal a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15 : unsigned(17 downto 0) := (others => '0');
+    signal b0, b1, b2, b3, b4, b5, b6, b7 : unsigned(19 downto 0) := (others => '0');
+    signal c0, c1, c2, c3 : unsigned(23 downto 0);
+    signal d0, d1 : unsigned( 31 downto 0);    
+
 begin
 end pipeline;
