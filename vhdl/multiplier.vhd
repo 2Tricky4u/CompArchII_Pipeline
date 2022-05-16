@@ -149,9 +149,70 @@ architecture pipeline of multiplier16_pipeline is
     end component;
 
     signal a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15 : unsigned(17 downto 0) := (others => '0');
-    signal b0, b1, b2, b3, b4, b5, b6, b7 : unsigned(19 downto 0) := (others => '0');
+    signal b0_n, b0_c, b1_n, b1_c, b2_n, b2_c, b3_n, b3_c, b4_n, b4_c, b5_n, b5_c, b6_n, b6_c, b7_n, b7_c : unsigned(19 downto 0) := (others => '0');
     signal c0, c1, c2, c3 : unsigned(23 downto 0);
-    signal d0, d1 : unsigned( 31 downto 0);    
+    signal d0, d1 : unsigned( 31 downto 0);
 
 begin
+    a0 <= ("00" & B) when A(0) = '1' else (others => '0');
+    a1 <= ("0" & B & "0") when A(1) = '1' else (others => '0');
+    a2 <= ("00" & B) when A(2) = '1' else (others => '0');
+    a3 <= ("0" & B & "0") when A(3) = '1' else (others => '0');
+    a4 <= ("00" & B) when A(4) = '1' else (others => '0');
+    a5 <= ("0" & B & "0") when A(5) = '1' else (others => '0');
+    a6 <= ("00" & B) when A(6) = '1' else (others => '0');
+    a7 <= ("0" & B & "0") when A(7) = '1' else (others => '0');
+    a8 <= ("00" & B) when A(8) = '1' else (others => '0');
+    a9 <= ("0" & B & "0") when A(9) = '1' else (others => '0');
+    a10 <= ("00" & B) when A(10) = '1' else (others => '0');
+    a11 <= ("0" & B & "0") when A(11) = '1' else (others => '0');
+    a12 <= ("00" & B) when A(12) = '1' else (others => '0');
+    a13 <= ("0" & B & "0") when A(13) = '1' else (others => '0');
+    a14 <= ("00" & B) when A(14) = '1' else (others => '0');
+    a15 <= ("0" & B & "0") when A(15) = '1' else (others => '0');
+    
+
+    b0_n <= "00" & (a0 + a1);
+    b1_n <= (a2 + a3) & "00";
+    b2_n <= "00" & (a4 + a5);
+    b3_n <= (a6 + a7) & "00";
+    b4_n <= "00" & (a8 + a9);
+    b5_n <= (a10 + a11) & "00";
+    b6_n <= "00" & (a12 + a13);
+    b7_n <= (a14 + a15) & "00";
+
+    c0 <= "0000" & (b0 + b1);
+    c1 <= (b2 + b3) & "0000";
+    c2 <= "0000" & (b4 + b5);
+    c3 <= (b6 + b7) & "0000";
+
+    d0 <= "00000000" & (c0 + c1);
+    d1 <= (c2 + c3) & "00000000";
+
+    P <= d0 + d1;
+
+    process(clk, reset_n)
+    begin
+    if(reset_n = '0') then
+        b0_c <= (others => '0');
+        b1_c <= (others => '0');
+        b2_c <= (others => '0');
+        b3_c <= (others => '0');
+        b4_c <= (others => '0');
+        b5_c <= (others => '0');
+        b6_c <= (others => '0');
+        b7_c <= (others => '0');
+    else
+        if(rising_edge(clk)) then
+            b0_c <= b0_n;
+            b1_c <= b1_n;
+            b2_c <= b2_n;
+            b3_c <= b3_n;
+            b4_c <= b4_n;
+            b5_c <= b5_n;
+            b6_c <= b6_n;
+            b7_c <= b7_n;    
+        end if;
+    end if;
+    end process;
 end pipeline;

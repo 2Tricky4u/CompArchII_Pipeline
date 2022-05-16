@@ -239,6 +239,56 @@ architecture two_stage_pipeline_2 of arith_unit is
             P       : out unsigned(31 downto 0)
         );
     end component;
-
+    signal sel_curr, start_curr : std_logic;
+    signal m1a, m1b : unsigned(7 downto 0);
+    signal m1r_next, m1r_curr, a1r_next, a1r_curr, a2r, m2m_next, m2m_curr : unsigned(15 downto 0);
+    signal a1a, a1atemp : unsigned(15 downto 0) := (others => '0');
+    signal m2r, m3r, a3r : unsigned(31 downto 0);
 begin
+     --First multiplication
+     m1a <= B when sel = '0' else A;
+     m1b <= C when sel ='0' else A;
+     c1 : multiplier port map ( A => m1a, B => m1b, P => m1r_next);
+ 
+     --First addition
+     a1atemp(7 downto 0) <= A;
+     a1a <= a1atemp when sel = '0' else shift_left(a1atemp, 1);
+     a1r_next <= a1a + B;
+ 
+     --Second addition
+     a2r <= m1r_next + a1r_next;
+ 
+     --Second multiplication
+     m2m_next <= a2r when sel = '0' else m1r_next;
+     c2 : multiplier16 port map ( A => m1r_curr, B => m2m_curr, P => m2r);
+ 
+     --Third multiplication
+     c3 : multiplier16 port map ( A => a1r_curr, B => a1r_curr, P => m3r);
+ 
+     --Third addition
+     a3r <= m2r + m3r;
+ 
+     --out
+     D <= m2r when sel_curr = '0' else a3r;
+     done <= start_curr ;
+
+     --1st stage dff
+    process(clk, reset_n, m1r_curr, m2m_curr, a1r_curr)
+    begin
+    if(reset_n = '0') then
+        sel_curr <= '0';
+        start_curr <= '0';
+        m1r_curr <= (others => '0');
+        m2m_curr <= (others => '0');
+        a1r_curr <= (others => '0');
+    else
+        if(rising_edge(clk)) then
+            sel_curr <= sel;
+            start_curr <= start;
+            m1r_curr <= m1r_next;
+            m2m_curr <= m2m_next;
+            a1r_curr <= a1r_next;
+        end if;
+    end if;
+    end process;
 end two_stage_pipeline_2;
