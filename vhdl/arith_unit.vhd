@@ -239,9 +239,9 @@ architecture two_stage_pipeline_2 of arith_unit is
             P       : out unsigned(31 downto 0)
         );
     end component;
-    signal sel_curr, start_curr : std_logic;
+    signal sel0, sel1, start0, start1 : std_logic;
     signal m1a, m1b : unsigned(7 downto 0);
-    signal m1r_next, m1r_curr, a1r_next, a1r_curr, a2r, m2m_next, m2m_curr : unsigned(15 downto 0);
+    signal m1r_next, m1r_curr, a1r_next, a1r_curr, a2r, m2m : unsigned(15 downto 0);
     signal a1a, a1atemp : unsigned(15 downto 0) := (others => '0');
     signal m2r, m3r, a3r : unsigned(31 downto 0);
 begin
@@ -256,37 +256,39 @@ begin
      a1r_next <= a1a + B;
  
      --Second addition
-     a2r <= m1r_next + a1r_next;
+     a2r <= m1r_curr + a1r_curr;
  
      --Second multiplication
-     m2m_next <= a2r when sel = '0' else m1r_next;
-     c2 : multiplier16 port map ( A => m1r_curr, B => m2m_curr, P => m2r);
+     m2m <= a2r when sel0 = '0' else m1r_curr;
+     c2 : multiplier16_pipeline port map (clk => clk, reset_n => reset_n, A => m1r_curr, B => m2m, P => m2r);
  
      --Third multiplication
-     c3 : multiplier16 port map ( A => a1r_curr, B => a1r_curr, P => m3r);
+     c3 : multiplier16_pipeline port map ( clk => clk, reset_n => reset_n, A => a1r_curr, B => a1r_curr, P => m3r);
  
      --Third addition
      a3r <= m2r + m3r;
  
      --out
-     D <= m2r when sel_curr = '0' else a3r;
-     done <= start_curr ;
+     D <= m2r when sel1 = '0' else a3r;
+     done <= start1 ;
 
      --1st stage dff
-    process(clk, reset_n, m1r_curr, m2m_curr, a1r_curr)
+    process(clk, reset_n, m1r_curr, m2m, a1r_curr)
     begin
     if(reset_n = '0') then
-        sel_curr <= '0';
-        start_curr <= '0';
+        sel0 <= '0';
+        sel1 <= '0';
+        start0 <= '0';
+        start1 <= '0';
         m1r_curr <= (others => '0');
-        m2m_curr <= (others => '0');
         a1r_curr <= (others => '0');
     else
         if(rising_edge(clk)) then
-            sel_curr <= sel;
-            start_curr <= start;
+            sel0 <= sel;
+            sel1 <= sel0;
+            start0 <= start;
+            start1 <= start0;
             m1r_curr <= m1r_next;
-            m2m_curr <= m2m_next;
             a1r_curr <= a1r_next;
         end if;
     end if;
